@@ -20,7 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import phpLogo from "./tech/php-Logo.svg";
+import phpLogo from "./tech/phpLogo.svg";
 import mysqlLogo from "./tech/mysqlLogo.png";
 import pythonLogo from "./tech/pythonLogo.png";
 import allureLogo from "./tech/allureLogo.png";
