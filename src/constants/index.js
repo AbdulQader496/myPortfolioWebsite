@@ -260,7 +260,7 @@ const projects = [
     source_code_link: "https://github.com/AbdulQader496/react-web-gpt",
   },
   {
-    name: "Restaurant wensite",
+    name: "Restaurant website",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
