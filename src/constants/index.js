@@ -160,6 +160,28 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+    tags: [
+      {
+        name: "Laravel",
+        color: "red-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "docker-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "php-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Restapi",
+        color: "pink-text-gradient",
+      },
+    ],
   },
   {
     title: "Software Developer",
@@ -173,6 +195,44 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+    tags: [
+      {
+        name: "Laravel",
+        color: "red-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "php-text-gradient",
+      },
+      {
+        name: "React",
+        color: "react-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "docker-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Restapi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "IoT",
+        color: "iot-text-gradient",
+      },
+      {
+        name: "TTN",
+        color: "iot-text-gradient",
+      },
+      {
+        name: "Sensor",
+        color: "iot-text-gradient",
+      },
+    ],
   },
   {
     title: "QA Test Automatin Engineer",
@@ -185,6 +245,32 @@ const experiences = [
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+    tags: [
+      {
+        name: "Java",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Selenium",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Jerkins",
+        color: "jerkins-text-gradient",
+      },
+      {
+        name: "BDD",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Allure",
+        color: "allure-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "docker-text-gradient",
+      },
     ],
   },
 ];

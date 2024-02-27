@@ -65,6 +65,67 @@
   -webkit-text-fill-color: transparent;
 }
 
+.red-text-gradient {
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(156deg, rgba(255, 255, 0, 1) 3%, rgba(255, 59, 0, 1) 37%);
+
+    /* opera 11.10+ */
+    background: linear-gradient(156deg, rgba(255, 255, 0, 1) 3%, rgba(255, 59, 0, 1) 37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.jerkins-text-gradient {
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(146deg, rgba(211,56,52,1) 13%, rgba(240,214,183,1) 32%, rgba(128,176,196,1) 59%, rgba(72,114,139,1) 82%);
+  background: linear-gradient(146deg, rgba(211,56,52,1) 13%, rgba(240,214,183,1) 32%, rgba(128,176,196,1) 59%, rgba(72,114,139,1) 82%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.allure-text-gradient {
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(146deg, rgba(37,198,95,1) 17%, rgba(229,55,54,1) 36%, rgba(134,74,232,1) 62%, rgba(251,190,37,1) 85%, rgba(251,190,37,1) 85%);
+  background: linear-gradient(146deg, rgba(37,198,95,1) 17%, rgba(229,55,54,1) 36%, rgba(134,74,232,1) 62%, rgba(251,190,37,1) 85%, rgba(251,190,37,1) 85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blues-text-gradient {
+  background: #2f80ed;  /* fallback for old browsers */
+   /* safari 5.1+,chrome 10+ */
+   background: -webkit-linear-gradient(148deg, rgba(0, 255, 235, 1) 1%, rgba(0, 255, 235, 1) 1%, rgba(7, 58, 187, 1) 34%);
+
+   /* opera 11.10+ */
+   background: linear-gradient(148deg, rgba(0, 255, 235, 1) 1%, rgba(0, 255, 235, 1) 1%, rgba(7, 58, 187, 1) 34%);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.docker-text-gradient {
+  background: #2f80ed;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(146deg, rgba(13,183,237,1) 31%, rgba(56,77,84,1) 82%);
+  background: linear-gradient(146deg, rgba(13,183,237,1) 31%, rgba(56,77,84,1) 82%);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.php-text-gradient {
+  background: #2f80ed;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(148deg, rgba(176,179,214,1) 0%, rgba(120,124,181,1) 27%, rgba(71,74,138,1) 100%);
+background: linear-gradient(148deg, rgba(176,179,214,1) 0%, rgba(120,124,181,1) 27%, rgba(71,74,138,1) 100%);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.yellow-text-gradient {
+  background: #2f80ed;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(148deg, rgba(240,219,79,1) 18%, rgba(50,51,48,1) 100%);
+  background: linear-gradient(148deg, rgba(240,219,79,1) 18%, rgba(50,51,48,1) 100%);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .green-text-gradient {
   background: #11998e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -97,6 +158,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.react-text-gradient {
+  /* background: -webkit-linear-gradient(#eee, #333); */
+  background: #56ccf2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(146deg, rgba(97,219,251,1) 0%, rgba(255,255,255,1) 94%);
+background: linear-gradient(146deg, rgba(97,219,251,1) 0%, rgba(255,255,255,1) 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .pink-text-gradient {
   background: #ec008c; /* fallback for old browsers */
@@ -110,6 +179,27 @@
     #ec008c,
     #fc6767
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pinks-text-gradient {
+  background: #ec008c; /* fallback for old browsers */
+  
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(148deg, rgba(255, 0, 0, 1) 6%, rgba(244, 0, 255, 1) 36%, rgba(244, 0, 255, 1) 78%);
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(148deg, rgba(255, 0, 0, 1) 6%, rgba(244, 0, 255, 1) 36%, rgba(244, 0, 255, 1) 78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.iot-text-gradient {
+  background: #ec008c; /* fallback for old browsers */
+  
+  background: -webkit-linear-gradient(146deg, rgba(30,122,202,1) 11%, rgba(33,125,203,1) 29%, rgba(239,231,231,1) 79%);
+  background: linear-gradient(146deg, rgba(30,122,202,1) 11%, rgba(33,125,203,1) 29%, rgba(239,231,231,1) 79%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

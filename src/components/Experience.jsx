@@ -12,7 +12,9 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
-const ExperienceCard = ({ experience }) => {
+const ExperienceCard = ({ 
+  experience, name, 
+  tags }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -52,6 +54,16 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+      <div className='mt-4 flex flex-wrap gap-2'>
+          {experience.tags.map((tag) => (
+            <p
+              key={`${name}-${tag.name}`}
+              className={`text-[14px] ${tag.color}`}
+            >
+              #{tag.name}
+            </p>
+          ))}
+        </div>
     </VerticalTimelineElement>
   );
 };
@@ -69,15 +81,15 @@ const Experience = () => {
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
-        <VerticalTimeline>
+            <VerticalTimeline>
           {experiences.map((experience, index) => (
-            <ExperienceCard
-              key={`experience-${index}`}
+            <ExperienceCard key={`experience-${index}`}
               experience={experience}
             />
-          ))}
+          ))}   
         </VerticalTimeline>
       </div>
+    
     </>
   );
 };
